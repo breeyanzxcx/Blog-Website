@@ -1,0 +1,110 @@
+body {
+	margin: 0;
+	padding: 0;
+    background-image: linear-gradient(rgba(9,0,77,0.65),rgba(9,0,77,0.65)), url(background.png);
+	background-size: cover;
+}
+header{
+    color: white;
+    display: flex;
+}
+header img{
+	margin-left: 10px;
+    border-radius: 50%;
+	width: 100px;
+	height: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.header-buttons {
+	margin-right: 80px;
+	display: flex;
+	align-items: center;
+    margin-left: auto;
+}
+
+.header-buttons button {
+	margin-left: 20px;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+    text-decoration: none;
+	background-color: transparent;
+}
+
+.header-buttons button:hover {
+	background-color: red;
+}
+
+footer {
+	height: 150px;
+    background-color: rgb(212, 209, 208);
+	left: 0;
+	width: 100%;
+	padding: 5px;
+	box-sizing: border-box;
+}
+.footer-paragraph p{
+	color: black;
+	text-align: center;
+}
+.social-icons{
+	display: flex;
+	justify-content: center;
+}
+.social-icons a{
+	padding: 20px;
+	border-radius: 50px;
+}
+.social-icons a i{
+	font-size: 2em;
+	color: black;
+	opacity: 0.9;
+}
+.social-icons a:hover{
+	background-color: rgb(122, 122, 98);
+	transition: 0.5s;
+}
+
+.circle-container{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex-wrap: wrap;
+}
+
+.boy-circle{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+    background-image: url(boy.jpg);
+    background-size: cover;
+    margin-left:50px
+}
+.girl-circle{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+    background-image: url(girl.jpg);
+    background-size: cover;
+}
+.button-link{
+    text-decoration: none;
+    color: white;
+	font-size: 20;
+	
+}
+.note{
+    text-align: center;
+	margin: 10px;
+    font-size: 16px;
+    font-weight: bold;
+	color: white;
+}

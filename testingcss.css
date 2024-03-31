@@ -1,0 +1,31 @@
+.card {
+    width: 300px;
+    height: 200px;
+    border: 1px solid #ccc;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+  }
+  
+  .card:hover {
+    height: 400px;
+  }
+  
+  .card-content {
+    padding: 10px;
+    height: 100%;
+  }
+  
+  .card-details {
+    display: none;
+    padding: 10px;
+    height: 100px;
+    background-color: white;
+  }
+  
+  .card:hover .card-details {
+    display: block;
+}
+
+body{
+    background-color: black;
+}

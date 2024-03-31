@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(9,0,77,0.65),rgba(9,0,77,0.65)), url(background.png) ;;
+}
+header{
+    padding: 30px;
+}
+.back-button{
+    color: white;
+    margin-left: 30px;
+    text-decoration: none;
+}
+.raper{
+    margin: 150px;
+    background: white;
+    width: auto;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 10px 10px 15px rgba(9,0,77,0.65);
+}
+h2{
+    text-align: center;
+}
+.members{
+    display: flex;
+    justify-content: center;
+}
+.team-mem{
+    margin: 8px;
+}
+img{
+    width: 100px;
+    border-radius: 50%;
+    height: 100px;
+    margin: 10px;
+}
+h4{
+    text-align: center;
+    font-size: 12px;
+    margin: 7px;
+}
