@@ -13,6 +13,27 @@ ul{
 header{
     padding: 20px;
 }
+.header-buttons {
+	margin-right: 80px;
+	display: flex;
+	align-items: center;
+    margin-left: auto;
+}
+
+.header-buttons a{
+	margin-left: 15px;
+	padding: 10px 20px;
+	border-radius: 20px;
+	background-color: transparent;
+	border: 1px solid rgb(143, 136, 136);
+}
+
+.button-text{
+    text-decoration: none;
+    color: white;
+	font-size: 20;
+	letter-spacing: 5px;
+}
 .back-button{
     color: white;
     margin-left: 30px;
@@ -49,7 +70,6 @@ body{
 .blog-box{
     width: 300px;
     background-color: white;
-    border: 1px solid yellow;
     margin: 20px;
 }
 
@@ -58,6 +78,7 @@ body{
     height: 100%;
     object-fit: cover;
     object-position: center;
+    border: 1px solid yellow;
 }
 .blog-text{
     padding: 30px;
