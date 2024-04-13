@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0; 
+}
+hr {
+    margin-right: 80px;
+    margin-left: 80px;
+    margin-top: 50px;  
+    height: 4px;  
+    background-color: red;  
+    border: none;  
+} 
+header{
+    background-image: url(lightning.jpg);
+    background-size: cover;
+} 
+.header-buttons button {
+    margin-top: 30px;
+    margin-bottom: 30px;
+	margin-left: 15px;
+	padding: 10px 20px;
+	border-radius: 20px;
+	background-color: transparent;
+	border: 1px solid rgb(143, 136, 136);
+}
+.button-text{
+    text-decoration: none;
+    color: white;
+	font-size: 20;
+	letter-spacing: 5px;
+}
+.container{
+    height: 100%;
+    width: 70%;
+    margin-left: 200px;
+}
+.container h1{
+    font-size: 50px;
+    margin-left: 150px;
+}
+.container .petsa{
+    color: rgb(131, 131, 153);
+    margin-left: 30px;  
+    padding-bottom: 50px;
+    margin-left: 150px;
+}
+.container-img img{
+    width:500x;
+    height: 400px;
+}
+.container-text p{
+    color: black;
+    font-size: 25px;
+}
