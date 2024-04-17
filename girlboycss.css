@@ -141,3 +141,13 @@ footer {
 	background-color: rgb(122, 122, 98);
 	transition: 0.5s;
 }
+.btn button{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    background-color: rgb(122, 122, 98);
+    color: white;
+}
+.btn button:hover{
+    color: purple;
+    transition: 0.5s;
+}
